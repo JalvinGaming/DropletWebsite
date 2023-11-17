@@ -26,3 +26,13 @@ p
     margin-left: 200px; 
     margin-right: 200px;
 }
+#imghome
+{
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    transform: rotate(-20deg);
+    transition-duration: 0.5s;
+}

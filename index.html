@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <title>Droplet Website</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Images/Icons/Droplet.svg">
     </head>
     <body onload="loading()">
+        <img src="Images/Icons/Droplet.svg" id="imghome">
         <h1 id="homehead">Welcome to Droplet Studio!</h1>
         <div class="brace"></div>
         <p>We are a new Roblox development studio.
@@ -17,6 +19,8 @@
                     document.getElementById("homehead").style.opacity = "100%";
                     document.getElementById("homehead").style.marginTop = "90px";
                     document.getElementById("homehead").style.marginBottom = "10px";
+                    document.getElementById("imghome").style.transform = "rotate(0deg)";
+                    document.getElementById("imghome").style.width = "250px";
                 }
             </script>
     </body>
