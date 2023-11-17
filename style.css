@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    font-family: Tahoma;
+    color: white;
+}
+body
+{
+    background-color: #a4f;
+}
+.homehead
+{
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+@media (max-width: 1280px)
+{
+    .homehead
+    {
+        font-size: 60px;
+        text-align: center;
+        position: relative;
+        top: 70px;
+    }
+}
