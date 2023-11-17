@@ -8,11 +8,13 @@ body
 {
     background-color: #a4f;
 }
-.homehead
+#homehead
 {
     font-size: 80px;
     text-align: center;
     margin-top: 100px;
+    opacity: 0%;
+    transition-duration: 0.5s;
 }
 .brace
 {

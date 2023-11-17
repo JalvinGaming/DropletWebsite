@@ -5,9 +5,19 @@
         <title>Droplet Website</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <h1 class="homehead">Welcome to Droplet Studio!</h1>
+    <body onload="loading()">
+        <h1 id="homehead">Welcome to Droplet Studio!</h1>
         <div class="brace"></div>
-        <p>We are a new Roblox development studio. We are mainly run by three people - Kayla, Lee and Evan.</p>
+        <p>We are a new Roblox development studio.
+            We are mainly run by three people -
+            Kayla, Lee and Evan. </p>
+            <script>
+                function loading()
+                {
+                    document.getElementById("homehead").style.opacity = "100%";
+                    document.getElementById("homehead").style.marginTop = "90px";
+                    document.getElementById("homehead").style.marginBottom = "10px";
+                }
+            </script>
     </body>
 </html>
